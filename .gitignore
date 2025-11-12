@@ -8,3 +8,4 @@ trial/.ipynb_checkpoints/data_exploration-checkpoint.ipynb
 trial/.ipynb_checkpoints/tokenization-checkpoint.ipynb
 .gitignore
 trial/.ipynb_checkpoints/tokenization-Copy1-checkpoint.ipynb
+data/processed/preprocessed_data.pt
