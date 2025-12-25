@@ -21,8 +21,8 @@ Final_Submission/
 └── requirements.txt
 
 data/
-├── processed/
-|    ├── chess_games.csv
+└── processed/
+    └── chess_games.csv
 ```
 
 ## Files Description
