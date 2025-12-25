@@ -10,6 +10,17 @@ The models are trained on chess games parsed from PGN files, where each move is 
 
 ---
 
+## File Structure
+```text
+Final_Submission/
+├── Code/
+│   ├── tokenization.ipynb
+│   └── ML_Sem3_Project_Models.ipynb
+├── ML_Project_Proposal_Sem3.pdf
+├── ML_Sem3_Project_Report.pdf
+└── requirements.txt
+```
+
 ## Files Description
 
 ### `tokenization.ipynb`
