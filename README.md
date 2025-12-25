@@ -10,7 +10,25 @@ The models are trained on chess games parsed from PGN files, where each move is 
 
 ---
 
+## File Structure
+```text
+Final_Submission/
+├── Code/
+│   ├── tokenization.ipynb
+│   └── ML_Sem3_Project_Models.ipynb
+├── ML_Project_Proposal_Sem3.pdf
+├── ML_Sem3_Project_Report.pdf
+└── requirements.txt
+
+data/
+└── processed/
+    └── chess_games.csv
+```
+
 ## Files Description
+
+### `chess_games.csv`
+- CSV file that contains data from Lichess games containing player information (names, elo ratings, moves played in the game)
 
 ### `tokenization.ipynb`
 - Parses chess games from PGN format
@@ -66,3 +84,12 @@ Initial project proposal outlining:
 
 ### `requirements.txt`
 Lists Python dependencies required to run the project.
+
+---
+
+## How to run the code (preferably on Google Colab using T4 GPU for Runtime)
+
+1. Run the *tokenization.ipynb* file which will generate the *preprocessed_data.pt*
+2. This *preprocessed_data.pt* will have to be uploaded to Colab as it will be used in *ML_Sem3_Project_Models.ipynb* file
+3. *ML_Sem3_Project_Models.ipynb* file contains the code for training both the models and evaluating them
+4. Run all cells in order without skipping anything
