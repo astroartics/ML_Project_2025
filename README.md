@@ -19,9 +19,16 @@ Final_Submission/
 ├── ML_Project_Proposal_Sem3.pdf
 ├── ML_Sem3_Project_Report.pdf
 └── requirements.txt
+
+data/
+├── processed/
+|    ├── chess_games.csv
 ```
 
 ## Files Description
+
+### `chess_games.csv`
+- CSV file that contains data from Lichess games containing player information (names, elo ratings, moves played in the game)
 
 ### `tokenization.ipynb`
 - Parses chess games from PGN format
