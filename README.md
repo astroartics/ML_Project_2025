@@ -87,7 +87,7 @@ Lists Python dependencies required to run the project.
 
 ---
 
-## How to run the code (preferably in Google Colab using T4 GPU for Runtime)
+## How to run the code (preferably on Google Colab using T4 GPU for Runtime)
 
 1. Run the *tokenization.ipynb* file which will generate the *preprocessed_data.pt*
 2. This *preprocessed_data.pt* will have to be uploaded to Colab as it will be used in *ML_Sem3_Project_Models.ipynb* file
