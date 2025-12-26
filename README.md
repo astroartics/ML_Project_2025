@@ -58,7 +58,7 @@ data/
 
 ---
 
-### `report.pdf`
+### `ML_Sem3_Project_Report.pdf`
 Final project report containing:
 - Introduction and problem statement
 - Motivation and goals
@@ -73,7 +73,12 @@ Final project report containing:
 
 ---
 
-### `proposal.pdf`
+### `ML_Survey_Paper_Sem3.pdf`
+Survey paper based on research papers related to the project topic.
+
+---
+
+### `ML_Project_Proposal_Sem3.pdf`
 Initial project proposal outlining:
 - Problem definition
 - Motivation
